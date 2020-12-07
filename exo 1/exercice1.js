@@ -1,7 +1,7 @@
 /* Modifier le code ci dessous */
 
-document.getElementById("cliquezmoi").("", function(){
-    alert('Click')
-});
+let button = document.getElementById("cliquezmoi");
 
-
+button.addEventListener("click",function (){
+    alert("click");
+})

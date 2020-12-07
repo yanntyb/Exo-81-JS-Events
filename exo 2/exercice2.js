@@ -1,6 +1,6 @@
 /* Modifier le code ci dessous */
 
-document.getElementById("bouton").("", function(){
+document.getElementById("bouton").addEventListener("mouseover", function(){
     alert('event déclenché')
 });
 
